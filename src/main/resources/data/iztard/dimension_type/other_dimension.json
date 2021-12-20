@@ -1,0 +1,17 @@
+{
+  "name": "iztard:other_dimension",
+  "ultrawarm": false,
+  "natural": true,
+  "coordinate_scale": 1,
+  "has_skylight": true,
+  "has_ceiling": true,
+  "ambient_light": 14,
+  "fixed_time": 7000,
+  "piglin_safe": false,
+  "bed_works": true,
+  "respawn_anchor_works": true,
+  "has_raids": true,
+  "logical_height": 457,
+  "infiniburn": "minecraft:infiniburn_overworld",
+  "effects": "minecraft:overworld"
+}

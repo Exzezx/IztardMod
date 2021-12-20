@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "iztard:power_ge"
+    ]
+  },
+  "criteria": {
+    "power_ge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iztard:power_ge"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "iztard:power_ge"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "power_ge",
+      "has_the_recipe"
+    ]
+  ]
+}

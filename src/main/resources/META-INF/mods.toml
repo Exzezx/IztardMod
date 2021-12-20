@@ -1,0 +1,37 @@
+modLoader = "javafml" #mandatory
+loaderVersion = "[36,)"
+license = "MIT"
+#issueTrackerURL="http://my.issue.tracker/"
+[[mods]]
+modId = "iztard"
+version = "${file.jarVersion}"
+displayName = "Iztard"
+#updateJSONURL="http://myurl.me/" #optional
+#displayURL="http://example.com/" #optional
+#logoFile="iztard.png" #optional
+#credits="Thanks for this example mod goes to Java" #optional
+authors = "Ezzaze" #optional
+description = '''
+exz
+'''
+
+[[dependencies.iztard]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.iztard]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,1.17)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.iztard]]
+modId = "curios"
+mandatory = true
+versionRange = "[1.16.5-4.0.5.3]"
+ordering = "NONE"
+side = "BOTH"

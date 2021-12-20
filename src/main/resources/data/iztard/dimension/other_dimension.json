@@ -1,0 +1,9 @@
+{
+  "type": "iztard:other_dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "biomes": []
+    }
+  }
+}

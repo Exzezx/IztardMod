@@ -1,0 +1,22 @@
+{
+  "surface_builder": "iztard:mounted",
+  "depth": 0.135,
+  "scale": 0.177,
+  "temperature": 0.9,
+  "downfall": 0.5,
+  "precipitation": "snow",
+  "category": "none",
+  "player_spawn_friendly": true,
+  "effects": {
+    "sky_color": 122,
+    "fog_color": 123,
+    "water_color": 233,
+    "water_fog_color": 233
+
+  },
+  "starts": [
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal"
+  ]
+}

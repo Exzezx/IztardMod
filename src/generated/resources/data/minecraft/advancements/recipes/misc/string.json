@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:string"
+    ]
+  },
+  "criteria": {
+    "wool_to_string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_wool"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:string"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wool_to_string",
+      "has_the_recipe"
+    ]
+  ]
+}

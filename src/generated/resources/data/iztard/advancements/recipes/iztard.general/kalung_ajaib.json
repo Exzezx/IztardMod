@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "iztard:kalung_ajaib"
+    ]
+  },
+  "criteria": {
+    "kalung_ajaib": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iztard:kalung_ajaib"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "iztard:kalung_ajaib"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kalung_ajaib",
+      "has_the_recipe"
+    ]
+  ]
+}

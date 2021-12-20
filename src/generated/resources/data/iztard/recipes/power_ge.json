@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xzx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:gold_ingot"
+    },
+    "z": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "iztard:power_ge"
+  }
+}
